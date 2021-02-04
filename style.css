@@ -3,3 +3,45 @@
   margin: 0;
   padding: 0;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #A5AEB1;
+  margin-left: 50px;
+
+}
+
+/* Format of the converter itself */
+.input-labels {
+
+}
+
+.input-field {
+  height: 40px;
+  width: 100px;
+  background-color: antiquewhite;
+  text-align: center;
+  font-size: 14px; 
+}
+
+.row2 {
+
+}
+
+.output-field {
+height: 40px;
+width: 100px;
+background-color: antiquewhite;
+text-align: center;
+font-size: 14px;
+
+}
+
+
+.button {
+  color: green;
+  width: 145px;
+  font-size: 15px;
+  text-transform: uppercase;
+}

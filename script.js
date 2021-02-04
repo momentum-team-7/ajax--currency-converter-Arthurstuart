@@ -1,3 +1,17 @@
+const container = document.querySelector(".container")
+const currencyRates = "https://api.exchangeratesapi.io/latest?base=${baseCurrency}"
+
+fetch(currencyRates)
+.then(response => response.json())
+.then(data => {
+console.log('Rates working?' currencyRates)
+})
+
+
+
+const initialCurrency = document.querySelector('#input')
+const finalCurrency = document.querySelector('#output')
+
 const currencies = [
   'EUR',
   'CAD',
@@ -34,3 +48,6 @@ const currencies = [
   'MYR'
 ]
 
+for (let currency of currencies) {
+currenc 
+}
